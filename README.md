@@ -13,7 +13,7 @@ execute malicious code.
    its configuration.
 
 #PRACTICAL STEPS OF FILE INCLUSION
-1. Open browser to the host machine and type <kali linux ip>/DVWA. 
+1. Open browser to the host machine and type kali linux ip/DVWA. 
    e.g. http://192.168.190.135/DVWA/login.php
  <img width="1560" height="583" alt="image" src="https://github.com/user-attachments/assets/f6d72ff4-441c-4bcd-a95f-c88fa5dc3ba1" />
 2. Select the DVWA security level
