@@ -29,7 +29,7 @@ execute malicious code.
 6. First find LFI ( Local File Inclusion) at High level
   <img width="1517" height="634" alt="image" src="https://github.com/user-attachments/assets/41226c4d-88dd-4ad3-b742-c65430808da6" />
 
-# Stored XSS – DVWA Practical ( Cross-Site Scripting)
+# Cross- Site Scripting
 
 ## Introduction
 
@@ -37,8 +37,8 @@ Cross-Site Scripting (XSS) is a web application vulnerability that allows
 attacker-controlled JavaScript to execute in a victim's browser.
 
 ## Types of XSS Demonstrated
-1. Reflected XSS
-2. Stored XSS
+1. Stored XSS
+2. Reflected XSS
   Objective
 1. Stored XSS
  To demonstrate a Stored Cross-Site Scripting (XSS) vulnerability where malicious JavaScript is stored by the web application and executed when the 
@@ -63,8 +63,7 @@ Enter a name in the Name field.
 In the Message field, enter: <script>alert('Hello Friends')</script>
 
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/e88b0bca-eaaa-467d-807b-c9d2c14513d5" />
-<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/9cefc756-892d-44c2-977b-e5f21c33987b" />
-
+In medium level security no output shown
 
 Set:
 DVWA Security - High
@@ -75,9 +74,32 @@ In the Message field, enter: <script>alert('How are u')</script>
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/f8018bfa-c2cb-4c04-9695-cfc6638dbb78" />
 In high level security set No output is shown
 
+2. Reflected XSS
+
+   Objective
+   To demonstrate a Reflected Cross-Site Scripting (XSS) vulnerability in DVWA by injecting JavaScript into a user-controlled input field.
+   1. Start Apache and MySQL from XAMPP.
+   2. Open DVWA:
+      http://192.168.190.135/DVWA
+      Set:
+      DVWA Security → Low
+      Open:
+     XSS (Reflected)
+     Enter a name in the Name field.
+     In the Message field, enter payload <script>alert('Hello')</script>
 
 
+   <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/6d379e18-97a6-4b1c-abc8-ab2c671ef0fd" />
+   <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/13cbb797-b225-460b-afe8-2cdec8e80438" />
+   <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/190f4a4f-c1e8-47e0-8e5a-cdc0a8cd3bff" />
 
+
+   Set:
+      DVWA Security → Medium
+      Open:
+     XSS (Reflected)
+     Enter a name in the Name field.
+     In the Message field, enter payload <script>alert('Hello')</script>
 
 
 
