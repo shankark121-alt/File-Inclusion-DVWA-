@@ -30,8 +30,17 @@ execute malicious code.
   <img width="1517" height="634" alt="image" src="https://github.com/user-attachments/assets/41226c4d-88dd-4ad3-b742-c65430808da6" />
 
 # Stored XSS – DVWA Practical ( Cross-Site Scripting)
-  Objective
 
+## Introduction
+
+Cross-Site Scripting (XSS) is a web application vulnerability that allows
+attacker-controlled JavaScript to execute in a victim's browser.
+
+## Types of XSS Demonstrated
+1. Reflected XSS
+2. Stored XSS
+  Objective
+1. Stored XSS
  To demonstrate a Stored Cross-Site Scripting (XSS) vulnerability where malicious JavaScript is stored by the web application and executed when the 
  stored content is viewed.
 
@@ -43,7 +52,7 @@ DVWA Security → Low
 Open:
 XSS (Stored)
 Enter a name in the Name field.
-In the Message field, enter: <script>alert('Hello Friends')</script>
+In the Message field, enter payload <script>alert('Hello Friends')</script>
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/70ce8100-2791-44f3-92b1-ea06ffd32c42" />
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/8ab94875-3009-4150-8e6f-5d08d7cfd38f" />
 
