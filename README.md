@@ -76,11 +76,13 @@ attacker-controlled JavaScript to execute in a victim's browser.
  In high level security set No output is shown
 
  2. Reflected XSS
+    
     Objective
     To demonstrate a Reflected Cross-Site Scripting (XSS) vulnerability in DVWA by injecting JavaScript into a user-controlled input field.
    . Start Apache and MySQL from XAMPP.
     . Open DVWA:
      http://192.168.190.135/DVWA
+    
     Set:
     DVWA Security → Low
     Open:
