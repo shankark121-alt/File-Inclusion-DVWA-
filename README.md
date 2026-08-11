@@ -94,6 +94,27 @@ attacker-controlled JavaScript to execute in a victim's browser.
     <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/13cbb797-b225-460b-afe8-2cdec8e80438" />
     <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/190f4a4f-c1e8-47e0-8e5a-cdc0a8cd3bff" />
 
+    Set:
+    DVWA Security → Medium
+    Open:
+    XSS (Reflected)
+    Enter a name in the Name field.
+    In the Message field, enter payload <script>alert('Hello')</script>
+
+    <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/56efdad7-2644-4198-b01b-592492706564" />
+    <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/f36409cd-afc9-4677-889a-3d80a0c54563" />
+
+    Set:
+    DVWA Security → High
+    Open:
+    XSS (Reflected)
+    Enter a name in the Name field.
+    In the Message field, enter payload <script>alert('Hello')</script>
+
+    <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/6d276201-bd27-4032-8202-481f69b3bb3c" />
+    <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/c9eadcdf-ac32-441e-8ed9-0a74e4fa0ceb" />
+
+
  # Conclusion
 
  This practical demonstrated the difference between Reflected XSS and
