@@ -29,7 +29,7 @@ execute malicious code.
 6. First find LFI ( Local File Inclusion) at High level
   <img width="1517" height="634" alt="image" src="https://github.com/user-attachments/assets/41226c4d-88dd-4ad3-b742-c65430808da6" />
 
-# Stored XSS – DVWA Practical
+# Stored XSS – DVWA Practical ( Cross-Site Scripting)
   Objective
 
  To demonstrate a Stored Cross-Site Scripting (XSS) vulnerability where malicious JavaScript is stored by the web application and executed when the 
@@ -61,7 +61,11 @@ Set:
 DVWA Security - High
 Open Stored XSS
 Enter a name in the Name field.
-In the Message field, enter: <script>alert('Hello Friends')</script>
+In the Message field, enter: <script>alert('How are u')</script>
+
+<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/f8018bfa-c2cb-4c04-9695-cfc6638dbb78" />
+In high level security set No output is shown
+
 
 
 
