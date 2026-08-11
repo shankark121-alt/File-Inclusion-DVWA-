@@ -29,6 +29,44 @@ execute malicious code.
 6. First find LFI ( Local File Inclusion) at High level
   <img width="1517" height="634" alt="image" src="https://github.com/user-attachments/assets/41226c4d-88dd-4ad3-b742-c65430808da6" />
 
+# Stored XSS – DVWA Practical
+  Objective
+
+ To demonstrate a Stored Cross-Site Scripting (XSS) vulnerability where malicious JavaScript is stored by the web application and executed when the 
+ stored content is viewed.
+
+Steps
+Open DVWA:
+http://192.168.190.135/dvwa/
+Set:
+DVWA Security → Low
+Open:
+XSS (Stored)
+Enter a name in the Name field.
+In the Message field, enter: <script>alert('Hello Friends')</script>
+<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/70ce8100-2791-44f3-92b1-ea06ffd32c42" />
+<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/8ab94875-3009-4150-8e6f-5d08d7cfd38f" />
+
+Set:
+DVWA Security - Medium
+Open Stored XSS
+Enter a name in the Name field.
+In the Message field, enter: <script>alert('Hello Friends')</script>
+
+<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/e88b0bca-eaaa-467d-807b-c9d2c14513d5" />
+<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/9cefc756-892d-44c2-977b-e5f21c33987b" />
+
+
+Set:
+DVWA Security - High
+Open Stored XSS
+Enter a name in the Name field.
+In the Message field, enter: <script>alert('Hello Friends')</script>
+
+
+
+
+
 
 
 
