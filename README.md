@@ -29,6 +29,26 @@ execute malicious code.
 6. First find LFI ( Local File Inclusion) at High level
   <img width="1517" height="634" alt="image" src="https://github.com/user-attachments/assets/41226c4d-88dd-4ad3-b742-c65430808da6" />
 
+  Click File Inclusion 
+  
+  select DVWA security low 
+  
+  First find RFI ( Remote File inclusion at low level)
+  
+  <img width="601" height="344" alt="image" src="https://github.com/user-attachments/assets/ac63135b-d134-42f1-8805-ea46389ed8f0" />
+  <img width="1503" height="619" alt="image" src="https://github.com/user-attachments/assets/0f77f313-28de-4209-b5f3-f5fbf02788a7" />
+  <img width="1254" height="641" alt="image" src="https://github.com/user-attachments/assets/6e40579f-1e62-4b86-89c3-e2a49b869e66" />
+  
+  Find ind RFI ( Remote File inclusion at Medium level)
+
+  <img width="1237" height="622" alt="image" src="https://github.com/user-attachments/assets/36c578ab-0eb5-424b-a44f-c254e5870544" />
+
+  Find RFI ( Remote File inclusion at High level)
+
+ <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/e9fc269e-10bc-4de8-bb2d-be8cbf3888e1" />
+
+ At High level it shows Error: File not found.
+
 # Cross- Site Scripting
 
 ## Introduction
