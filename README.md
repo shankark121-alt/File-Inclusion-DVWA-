@@ -35,7 +35,7 @@ execute malicious code.
   
   First find RFI ( Remote File inclusion at low level)
   
-  <img width="601" height="344" alt="image" src="https://github.com/user-attachments/assets/ac63135b-d134-42f1-8805-ea46389ed8f0" />
+  <img width="1231" height="634" alt="image" src="https://github.com/user-attachments/assets/f39fabef-2626-48f6-9754-02c0e3f89220" />
   <img width="1503" height="619" alt="image" src="https://github.com/user-attachments/assets/0f77f313-28de-4209-b5f3-f5fbf02788a7" />
   <img width="1254" height="641" alt="image" src="https://github.com/user-attachments/assets/6e40579f-1e62-4b86-89c3-e2a49b869e66" />
   
